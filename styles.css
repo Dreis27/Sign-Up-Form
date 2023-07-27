@@ -20,11 +20,13 @@ body {
     width: 65vw;
 }
 .text-container{
+    
     width:100%;
-    background-color: antiquewhite;
+    background-color: transparent
     height: auto
 }
 .input-container{
+    margin-top: 15rem;
     box-sizing: border-box;
     width: 100%;
     align-items: center;
@@ -34,5 +36,7 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     padding: 50px;
-
+}
+input, label {
+    display:block;
 }
