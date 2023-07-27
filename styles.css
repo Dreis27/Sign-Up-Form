@@ -21,7 +21,7 @@ body {
 }
 .text-container{
     color: rgb(255, 255, 255);
-    width: 50%;
+    width: 65%;
     background-color: transparent;
     height: 30vh;
     margin-left: 6rem;
@@ -69,13 +69,15 @@ input, label, button {
 }
     
 input{
+    border:0;
     border-radius: 5px;
-    border-width: 2px;
-    border-color: white;
+    border-width: 4px;
     background-color: black;
-    width: 15rem;
-    height: 1.5rem;
+    width: 18rem;
+    height: 1.8rem;
     color: white;
+    border-width: 10px;
+    transition: all .5s;
 }
 
 label{
@@ -83,5 +85,36 @@ label{
     color: rgb(255, 124, 17);
 }
 input:focus{
-    box-shadow: 0px 0px 5px 5px rgba(187, 179, 179, 0.5);
+    box-shadow: 0px 0px 5px 5px rgba(133, 125, 125, 0.5);
 }
+
+button {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #ffffff; 
+    background-color: hsl(160, 29%, 58%); 
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.3s; 
+    text-align: center;
+    text-decoration: none; 
+}
+
+
+button:hover {
+    background-color: hsl(160, 21%, 45%); 
+    transform: scale(1.05); 
+}
+
+
+button:active {
+    transform: scale(0.95); 
+}
+
+
+
+
+
+
