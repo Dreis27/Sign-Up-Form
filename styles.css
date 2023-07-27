@@ -14,29 +14,74 @@ body {
 
 }
 .form-container{
-    
-    background-color: gray;
+    position: relative;
+    background-color: rgb(0, 0, 0);
     height: 100vh;
     width: 65vw;
 }
 .text-container{
-    
-    width:100%;
-    background-color: transparent
-    height: auto
+    color: rgb(255, 255, 255);
+    width: 50%;
+    background-color: transparent;
+    height: 30vh;
+    margin-left: 6rem;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
 }
 .input-container{
-    margin-top: 15rem;
+    
+    color: rgb(255, 255, 255);
+    
     box-sizing: border-box;
     width: 100%;
     align-items: center;
-    background-color: rgb(68, 68, 77);
-    height: auto;
+    background-color: rgb(24, 24, 24);
+    height: 35vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
-    padding: 50px;
+    gap: 2rem;
+    padding: 3rem;
+    padding-left: 6rem;
+    padding-right: 20rem;
+    column-gap: 0px;
 }
-input, label {
+button{
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+input, label, button {
     display:block;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    
+    color: aliceblue;
+    width:100%;
+    height: 8rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 45%);
+    margin-top: 35%;
+}
+    
+input{
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: white;
+    background-color: black;
+    width: 15rem;
+    height: 1.5rem;
+    color: white;
+}
+
+label{
+    font-size: 14px;
+    color: rgb(255, 124, 17);
+}
+input:focus{
+    box-shadow: 0px 0px 5px 5px rgba(187, 179, 179, 0.5);
 }
