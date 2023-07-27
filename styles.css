@@ -85,7 +85,7 @@ label{
     color: rgb(255, 124, 17);
 }
 input:focus{
-    box-shadow: 0px 0px 5px 5px rgba(133, 125, 125, 0.5);
+    box-shadow: 0px 0px 7px 5px rgba(79, 185, 141, 0.5);
 }
 
 button {
