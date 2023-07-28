@@ -129,14 +129,8 @@ input:invalid {
 
 input:invalid + .error > .errorTxt {
     color: red;
-
-
 }
-.errorPass {
 
-    color: red;
-    display: none; 
-}
 
 
 

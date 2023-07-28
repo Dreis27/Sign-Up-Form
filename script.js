@@ -11,13 +11,17 @@ function validatePasswords() {
 
     if (passwordInput.value === '') {
         passwordError.style.color = 'red';
+        passwordInput.style.border = '1px solid red';
     } else {
         passwordError.style.color = 'transparent';
+        passwordInput.style.border = '0';
     }
     
     if (passwordInput.value !== confirmPasswordInput.value) {
         confirmError.style.color = 'red';
+        confirmPasswordInput.style.border = '1px solid red';
     } else {
         confirmError.style.color = 'transparent';
+        confirmPasswordInput.style.border = '0';
     }
 }
