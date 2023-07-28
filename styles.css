@@ -115,20 +115,29 @@ button:active {
 
 
 .error{
-    color: transparent; 
-    font-size: 12px;
-    margin-top: 5px;
-    transition: color 0.3s; 
+    height: 0.5rem;
+    position: relative;
+}
+.errorTxt{
+    font-size: 14px;
+    color: transparent;
 }
 
 input:invalid {
     border: 1px solid red;
 }
 
-input:invalid + .error {
+input:invalid + .error > .errorTxt {
     color: red;
 
+
 }
+.errorPass {
+
+    color: red;
+    display: none; 
+}
+
 
 
 
