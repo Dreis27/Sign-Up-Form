@@ -25,3 +25,14 @@ function validatePasswords() {
         confirmPasswordInput.style.border = '0';
     }
 }
+
+const passwordForm = document.getElementById('form');
+
+passwordForm.addEventListener('submit', function(event) {
+    // If the passwords are empty or don't match, prevent form submission
+    if (passwordInput.value === '' || passwordInput.value !== confirmPasswordInput.value) {
+        event.preventDefault();
+        validatePasswords();  
+    }
+});
+
