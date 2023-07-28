@@ -93,7 +93,7 @@ button {
     font-size: 20px;
     padding: 10px 20px;
     color: #ffffff; 
-    background-color: hsl(160, 29%, 58%); 
+    background-color: rgb(223, 111, 19); 
     border: none;
     border-radius: 10px; 
     cursor: pointer; 
@@ -113,6 +113,22 @@ button:active {
     transform: scale(0.95); 
 }
 
+
+.error{
+    color: transparent; 
+    font-size: 12px;
+    margin-top: 5px;
+    transition: color 0.3s; 
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+input:invalid + .error {
+    color: red;
+
+}
 
 
 
