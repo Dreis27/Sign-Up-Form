@@ -104,7 +104,7 @@ button {
 
 
 button:hover {
-    background-color: hsl(160, 21%, 45%); 
+    background-color: rgb(223, 111, 19); 
     transform: scale(1.05); 
 }
 
@@ -131,6 +131,16 @@ input:invalid {
 
 input:invalid + .error > .errorTxt {
     display: block;
+}
+
+.btn > p {
+    color: white;
+    margin-left: 6rem;
+}
+
+.btn > p > a {
+    color:rgb(255, 118, 6);
+    text-decoration: none;
 }
 
 
