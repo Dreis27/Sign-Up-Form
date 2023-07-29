@@ -23,21 +23,19 @@ body {
     color: rgb(255, 255, 255);
     width: 65%;
     background-color: transparent;
-    height: 30vh;
+    height: 25vh;
     margin-left: 6rem;
     padding-top: 3rem;
     font-size: 1.5rem;
     padding-bottom: 3rem;
 }
 .input-container{
-    
     color: rgb(255, 255, 255);
-    
     box-sizing: border-box;
     width: 100%;
     align-items: center;
     background-color: rgb(24, 24, 24);
-    height: 35vh;
+    height: 40vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -45,6 +43,10 @@ body {
     padding-left: 6rem;
     padding-right: 20rem;
     column-gap: 0px;
+}
+.text{
+    grid-column: span 2;
+    font-size: 1.5rem;
 }
 button{
     margin-top: 3rem;
