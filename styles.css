@@ -119,8 +119,10 @@ button:active {
     position: relative;
 }
 .errorTxt{
+    color: red;
+    position: absolute;
     font-size: 14px;
-    color: transparent;
+    display: none;
 }
 
 input:invalid {
@@ -128,7 +130,7 @@ input:invalid {
 }
 
 input:invalid + .error > .errorTxt {
-    color: red;
+    display: block;
 }
 
 

@@ -10,18 +10,18 @@ confirmPasswordInput.addEventListener('input', validatePasswords);
 function validatePasswords() {
 
     if (passwordInput.value === '') {
-        passwordError.style.color = 'red';
+        passwordError.style.display = 'block';
         passwordInput.style.border = '1px solid red';
     } else {
-        passwordError.style.color = 'transparent';
+        passwordError.style.display = 'none';
         passwordInput.style.border = '0';
     }
     
     if (passwordInput.value !== confirmPasswordInput.value) {
-        confirmError.style.color = 'red';
+        confirmError.style.display = 'block';
         confirmPasswordInput.style.border = '1px solid red';
     } else {
-        confirmError.style.color = 'transparent';
+        confirmError.style.display = 'none';
         confirmPasswordInput.style.border = '0';
     }
 }
